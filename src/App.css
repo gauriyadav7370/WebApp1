@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  margin-bottom: 20px;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.div-player
+{
+  background-color: red;
+  color: white;
+  margin: 10px auto;
+  width: 60%;
+  font-size: 2rem;
+  text-align: center;
+}
+.blue
+{
+  background-color: blue;
+}
+.red
+{
+  background-color: red;
+}
+div
+{
+  text-align: center;
+}
+.myborder
+{
+  border: 2px solid black;
+}
+.text-red
+{
+  color: red;
+}
+.text-stricked
+{
+  text-decoration: line-through;
+}
+.btn-with-light-bg
+{
+  background-color: cadetblue;
+}
+.btn-gray
+{
+  background-color: gray;
+}
+.greenminus
+{
+  background-color: green;
+  color: white;
+  float: left;
+}
+.greenpluse
+{
+  background-color: green;
+  color: white;
+  float: right;
+}
+.ml
+{
+  float: left;
+}
+.mr
+{
+  float: right;
+}
+h
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.borHei
+{
+  height: 38px;
+  background-color: greenyellow;
+}
+.ammount
+{
+  color: green;
+  font-size: large;
+  margin-top: 5px;
+  padding-top: 4px;
+  text-align: end;
+}
+.cartBtn
+{
+  background-color: green;
+  color: white;
+  float: right;
+}
+.OrderedFruitsList
+{
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+
+  margin-top: 8px;
+}
+.backToShoppingBtn
+{
+  margin-left: 4px;
+  background-color: green;
+  color: white;
+}
+.navBtn
+{
+  display: inline-block; 
+}
+.total
+{
+  color: red;
+  float: right;
+  text-align: right;
+}
+.listTextHead
+{
+  text-align: center;
+}
+.listTextHeadTotal
+{
+  text-align: end;
+}
+.whatsAppBtn
+{
+  margin-left: 4px;
+  background-color: rgb(47, 131, 47);
+  color: white;
+}
+.deleteAllListBut
+{
+  margin-bottom: 4px;
+  margin-top: 4px;
+  background-color: green;
+  color: white;
+}
+.borderRight
+{
+  border-right: 2px solid black;
+}
+.borderBottom
+{
+  border-bottom: 2px black solid;
+}
+.marginTop
+{
+  margin-top: 30px;
+}
